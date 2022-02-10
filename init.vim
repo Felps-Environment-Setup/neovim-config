@@ -1,3 +1,12 @@
+"     ______     __          
+"    / ____/__  / /___  _____
+"   / /_  / _ \/ / __ \/ ___/  Felipe Renan Vieira (Felps)
+"  / __/ /  __/ / /_/ (__  )   https://codeeasy.com.br
+" /_/    \___/_/ .___/____/    https://youtube.com/CodeEasy
+"             /_/           
+"
+" My personal init.vim config for neovim (https://neovim.io)
+
 call plug#begin("~/.vim/plugged")
   " ==============
   " Plugin Section
