@@ -1,0 +1,48 @@
+{
+  "intelephense.environment.phpVersion": "8.1.0",
+  "languageserver": {
+    "intelephense": {
+      "enable": true,
+      "command": "intelephense",
+      "args": ["--stdio"],
+      "filetypes": ["php"],
+      "initializationOptions": {
+        "storagePath": "/tmp/intelephense"
+      },
+      "settings": {
+        "intelephense": {
+          "files": {
+            "maxSize": 1000000,
+            "associations": ["*.php", "*.phtml"]
+          },
+          "completion": {
+            "insertUseDeclaration": true,
+            "fullyQualifyGlobalConstantsAndFunctions": false,
+            "triggerParameterHints": true,
+            "maxItems": 15
+          },
+          "format": {
+            "enable": true
+          }
+        }
+      }
+    }
+  },
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "typescript.tsx",
+    "phpls"
+  ],
+  "eslint.filetypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "typescript.tsx"
+  ],
+  "coc.preferences.diagnostic.virtualText": true
+}
