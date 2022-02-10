@@ -46,7 +46,7 @@ nnoremap <A-l> <C-w>l
 
 " use t+hjkl to move between tabs
 nnoremap th :tabfirst<CR>
-nnoremap tj :tabnext<CR>
-nnoremap tk :tabprev<CR>
+nnoremap tj :tabprev<CR>
+nnoremap tk :tabnext<CR>
 nnoremap tl :tablast<CR>
 
