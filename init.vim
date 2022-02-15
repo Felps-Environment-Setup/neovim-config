@@ -11,7 +11,6 @@ call plug#begin("~/.vim/plugged")
   " ==============
   " Plugin Section
   " ==============
-  Plug 'dracula/vim'
   Plug 'arcticicestudio/nord-vim'
   Plug 'scrooloose/nerdtree'
   Plug 'ryanoasis/vim-devicons'
@@ -24,6 +23,7 @@ call plug#begin("~/.vim/plugged")
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-rhubarb'
   Plug 'itchyny/lightline.vim'
+  Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 " ==============
