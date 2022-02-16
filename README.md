@@ -1,4 +1,4 @@
-Need install `nvim` 4.4+
+Need install `nvim` 0.6.1+
 
 Need install `python3`
 

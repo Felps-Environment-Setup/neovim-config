@@ -1,11 +1,14 @@
-"     ______     __          
+"     ______     __
 "    / ____/__  / /___  _____
 "   / /_  / _ \/ / __ \/ ___/  Felipe Renan Vieira (Felps)
 "  / __/ /  __/ / /_/ (__  )   https://codeeasy.com.br
 " /_/    \___/_/ .___/____/    https://youtube.com/CodeEasy
-"             /_/           
+"             /_/
 "
 " My personal init.vim config for neovim (https://neovim.io)
+
+" TODO: Change all configurations to a .lua file.
+" TODO: ADJUST TELESCOPE LIVE GREP ERROR
 
 call plug#begin("~/.vim/plugged")
   " ==============
@@ -24,6 +27,10 @@ call plug#begin("~/.vim/plugged")
   Plug 'tpope/vim-rhubarb'
   Plug 'itchyny/lightline.vim'
   Plug 'sheerun/vim-polyglot'
+  Plug 'dense-analysis/ale'
+  Plug 'jiangmiao/auto-pairs'
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
 
 " ==============
@@ -34,6 +41,9 @@ source $HOME/.config/nvim/config/common-editor-configuration.vim
 source $HOME/.config/nvim/config/nerd-tree.vim
 source $HOME/.config/nvim/config/terminal.vim
 source $HOME/.config/nvim/config/FZF.vim
-source $HOME/.config/nvim/config/coc.vim
 source $HOME/.config/nvim/config/lightline.vim
+source $HOME/.config/nvim/config/ale.vim
+source $HOME/.config/nvim/config/telescope.vim
+
+source $HOME/.config/nvim/config/coc.vim
 
