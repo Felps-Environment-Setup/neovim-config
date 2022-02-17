@@ -7,7 +7,8 @@ let g:coc_global_extensions = [
     \'coc-json',
     \'coc-prettier',
     \'coc-tsserver',
-    \'@yaegassy/coc-intelephense'
+    \'@yaegassy/coc-intelephense',
+    \'coc-lua'
 \]
 
 " Don't pass messages to |ins-completion-menu|.
