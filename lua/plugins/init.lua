@@ -1,6 +1,2 @@
-vim.cmd [[packadd packer.nvim]]
-
-return require('packer').startup(function ()
-
-end)
-
+require('plugins.plugins')
+require('plugins.lualine')

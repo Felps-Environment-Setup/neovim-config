@@ -12,6 +12,7 @@
 -- vim.cmd('source $HOME/.config/nvim/main.vim')
 
 require('config')
+require('plugins')
 
 -- require('telescope').setup{
 --     defaults = {
