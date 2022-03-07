@@ -49,6 +49,8 @@ return packer.startup(function (use)
     use 'arcticicestudio/nord-vim'
 
     -- TODO: GIT
+    use "lewis6991/gitsigns.nvim"
+    
     -- TODO: LSP
     -- TODO: SNIPPETS
     -- TODO: CMP - completions plugins

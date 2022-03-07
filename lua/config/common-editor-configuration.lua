@@ -31,6 +31,7 @@ vim.opt.clipboard = 'unnamedplus'
 vim.opt.cursorline = true               -- Highlight the screen line of the cursor
 vim.opt.ttyfast = true
 vim.opt.termguicolors = true            -- enable termguicolors
+vim.opt.timeoutlen = 100                -- time to wait for a mapped sequence to complete (in milliseconds)
 
 -- filetype on                        " Detect and set the filetype option and trigger the Fill
 -- filetype plugin on                 " Load the plugin file for the file type, if any
