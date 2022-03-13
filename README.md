@@ -18,6 +18,8 @@ Need install `npm install -g intelephense`
 
 Need install `php`
 
+Need install `ripgrep`
+
 ---
 
 Run in nvim `:PackerInstall`
